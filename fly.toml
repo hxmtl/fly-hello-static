@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for fly-hello-static-y5a0ng on 2026-04-13T02:55:18Z
+# fly.toml app configuration file generated for fly-hello-static-9tvdcq on 2026-04-13T03:29:25Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'fly-hello-static-y5a0ng'
+app = 'fly-hello-static-9tvdcq'
 primary_region = 'yyz'
 
 [build]
