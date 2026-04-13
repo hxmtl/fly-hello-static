@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for fly-hello-static-mepcdg on 2026-04-13T02:40:05Z
+# fly.toml app configuration file generated for fly-hello-static-y5a0ng on 2026-04-13T02:55:18Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'astro-basic-small-frog-637'
+app = 'fly-hello-static-y5a0ng'
 primary_region = 'yyz'
 
 [build]
@@ -17,6 +17,7 @@ primary_region = 'yyz'
   processes = ['app']
 
 [[vm]]
-  memory = '256mb'
+  memory = '1gb'
+  cpu_kind = 'shared'
   cpus = 1
   memory_mb = 256
