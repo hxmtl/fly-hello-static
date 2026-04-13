@@ -3,8 +3,8 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'fly-hello-static-mepcdg'
-primary_region = 'ams'
+app = 'astro-basic-small-frog-637'
+primary_region = 'yyz'
 
 [build]
 
@@ -17,7 +17,6 @@ primary_region = 'ams'
   processes = ['app']
 
 [[vm]]
-  memory = '1gb'
-  cpu_kind = 'shared'
+  memory = '256mb'
   cpus = 1
   memory_mb = 256
